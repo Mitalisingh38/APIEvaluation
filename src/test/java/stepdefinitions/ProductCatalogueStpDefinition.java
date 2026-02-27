@@ -17,9 +17,7 @@ import static org.testng.Assert.*;
 public class ProductCatalogueStpDefinition {
 
     private Response response;
-
     private Map<String, Object> payload;
-
     private String generatedId;
 
     @Given("the API base URI is set")
