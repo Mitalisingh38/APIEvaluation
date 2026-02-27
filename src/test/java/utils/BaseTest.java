@@ -10,11 +10,9 @@ public class BaseTest {
 
     public static void setup() {
         RestAssured.baseURI = "https://api.restful-api.dev";
-
         requestSpec = new RequestSpecBuilder()
                 .addHeader("Content-Type", "application/json")
                 .build();
-
         RestAssured.requestSpecification = requestSpec;
     }
 }
