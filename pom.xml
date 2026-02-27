@@ -105,7 +105,6 @@
 
     <build>
         <plugins>
-
             <!-- Compiler Plugin (JDK 21) -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>

@@ -15,8 +15,8 @@ Feature: Below is the list of scenarios to test CRUD Operation.
   Scenario: Verify the objects can be created and it can be deleted as well
     Given the API base URI is set
     Given the product payload is:
-      |  name                 | year | price   | CPU model     | Hard disk size |
-      |  Apple MacBook Pro 17 | 2019 | 1849.99 | Intel Core i9 | 1 TB           |
+      | name                 | year | price   | CPU model     | Hard disk size |
+      | Apple MacBook Pro 17 | 2019 | 1849.99 | Intel Core i9 | 1 TB           |
     When I send a POST request to "/objects"
     Then the response status code should be 200
     And the response should contain name as "Apple MacBook Pro 17"

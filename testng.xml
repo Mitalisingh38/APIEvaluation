@@ -2,7 +2,9 @@
 <suite name="API Test Suite" parallel="methods" thread-count="2">
     <test name="Cucumber API Tests">
         <classes>
+
             <class name="runners.TestRunner"/>
+
         </classes>
     </test>
 </suite>
