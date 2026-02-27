@@ -6,7 +6,7 @@ Feature: Below is the list of scenarios to test CRUD Operation.
     Then the response status code should be 200
     And the response should contain name as "Apple MacBook Pro 16"
 
-  Scenario: Ability to list multiple items
+  Scenario: Ability to list multiple items and verify the json contains required field
     Given the API base URI is set
     When I send a GET request to "/objects"
     Then the response status code should be 200
